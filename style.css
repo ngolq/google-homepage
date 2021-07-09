@@ -1,0 +1,161 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ----------My CSS code below----------- */
+
+body {
+    box-sizing: border-box;
+    -moz-appearance: none;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color:rgba(2, 2, 2);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 47px;
+}
+
+#logo-img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+}
+
+.search{
+    padding:26px 20px 20px 20px;
+}
+
+.search-form {
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    height: 44px;
+    max-width: 584px;
+    display:flex;
+    align-items: center;
+
+}
+
+.search-form:hover {
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
+}
+
+.material-icons-search {
+    color: #9aa0a6;
+    position: relative;
+    top: 6px;
+    margin-right: 5px;
+    margin-left: 15px;    
+}
+
+.material-icons-mic {
+    color: #9aa0a6;
+    position: relative;
+    top: 6px;
+    right: 6px;
+    margin-right: 15px;
+    margin-left: 5px;
+}
+
+input{
+    width: 450px;
+    height: 34px;
+    border-style: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+.buttons {
+    text-align: center;
+    padding: 30px;
+    
+}
+
+button {
+    background-color: none;
+    border: none;
+    padding: 6px 15px;
+    border-radius: 4px;
+    color: #5F6368;
+}
+
+button:hover {
+    border: 1px solid #c6c6c6;
+    color: #222;
+    opacity: 1;
+}
+
+#left-button {
+    margin-right: 5px;
+    font-size: inherit;
+}
+
+#right-button {
+    margin-left: 5px;
+    font-size: inherit;
+}
+
+/* -------------TOP NAV Bar-------------- */
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+

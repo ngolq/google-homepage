@@ -7,33 +7,47 @@
     <title>Google</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
     <header>
         <nav>
-           <ul>
-               <li><a href="#">About</a></li>
-               <li><a href="#">Store</a></li>
-               <li><a href="#">Gmail</a></li>
-               <li><a href="#">Images</a></li>
-               <li><span class="material-icons">apps</span></li>
-               <li><span class="material-icons">account_circle</span></li>
-           </ul> 
+            <div class="nav-container">
+                <div class="left-container">
+                    <ul class="left-nav">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Store</a></li>
+                    </ul>
+                </div>
+                <div class="right-container">
+                    <ul class="right-nav">
+                        <li><a href="#">Gmail</a></li>
+                        <li><a href="#">Images</a></li>
+                        <li><span class="material-icons">apps</span></li>
+                        <li><span class="material-icons">account_circle</span></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
-    
+
     <main>
-       <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo"> 
-       <form action="">
-           <span class="material-icons">search</span>
-           <input type="text">
-       </form>
-       <div class="buttons">
-            <button type="button">Google Search</button>
-            <button>I'm Feeling Lucky</button>
+       <img id="logo-img" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo"> 
+       <div class="search">
+           <div class="search-form">
+                <form action="">
+                    <span class="material-icons material-icons-search">search</span>
+                    <input type="text">
+                    <span class="material-icons material-icons-mic">mic</span>
+                </form>
+           </div>
+            <div class="buttons">
+                <button id="left-button" type="button">Google Search</button>
+                <button id="right-button">I'm Feeling Lucky</button>
+            </div>
        </div>
-       <p><a href="#">Discover Perspectives</a>: travel from home with virtual cultural tours</p>
     </main>
 
     <footer>
@@ -42,7 +56,6 @@
                 <li><a href="#">Advertising</a></li>
                 <li><a href="#">Business</a></li>
                 <li><a href="#">How Search works</a></li>
-                <li><a href="#">Carbon neutral since 2007</a></li>
                 <li><a href="#">Privacy</a></li>
                 <li><a href="#">Terms</a></li>
                 <li><a href="#">Settings</a></li>
