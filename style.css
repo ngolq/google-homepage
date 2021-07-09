@@ -61,7 +61,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 47px;
+    margin-top: 90px;
 }
 
 #logo-img {
@@ -154,8 +154,33 @@ button:hover {
 /* -------------TOP NAV Bar-------------- */
 .nav-container {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     padding-top: 20px;
     padding-bottom: 20px;
+    height: 24px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
+
+
+.left-nav, .right-nav {
+    display: flex;
+    align-items: center;
+}
+
+li {
+    padding: 10px;
+}
+
+li a {
+    text-decoration: none;
+    color: #5F6368;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* -------------BOTTOM NAV Bar */
