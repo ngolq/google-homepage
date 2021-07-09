@@ -184,3 +184,32 @@ a:hover {
 }
 
 /* -------------BOTTOM NAV Bar */
+footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.footer-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #5f636815;
+    border-top: 1px solid #dfe1e5;
+    border-bottom: 1px solid #dfe1e5;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.left-footer, .right-footer {
+    display: flex;
+    font-size: inherit;
+}
+
+.left-footer {
+    margin-left: 20px;
+}
+
+.right-footer {
+    margin-right: 20px;
+}
